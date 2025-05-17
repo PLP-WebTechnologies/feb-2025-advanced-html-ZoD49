@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+</head>
+<body>
+    <!-- An ordered list with Roman numerals -->
+     <h2>Modules offered at PLP Academy</h2>
+     <ol type="i">
+        <li>Python</li>
+        <li>Start up building for Entreppreneurs</li>
+        <li>Web Development V2</li>
+        <li>Database Design and Programming with SQL</li>
+        <li>Software Engineering Essentials</li>
+     </ol>
+     <!-- External image from pexels.com -->
+      <img src="https://images.pexels.com/photos/3802510/pexels-photo-3802510.jpeg" 
+         alt="Silver Lambo" 
+         width="500">
+     <!-- A table of 5 Contacts -->
+       <h2>Contact List</h2>
+    <table border="1" cellpadding="8" cellspacing="2" >
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Koigoh Samah</td>
+                <td>3 Freetown Rd</td>
+                <td>+1234567890</td>
+                <td>Ks@yahoo.com</td>
+            </tr>
+            <tr>
+                <td>Nicolas Cage</td>
+                <td>456 Oak Ave</td>
+                <td>+2345678901</td>
+                <td>nickcge@hollywood.com</td>
+            </tr>
+            <tr>
+                <td>John Doe</td>
+                <td>Nowhere Street</td>
+                <td>+23412675543</td>
+                <td>JD@cannotseeme.com</td>
+            </tr>
+            <tr>
+                <td>James Brown</td>
+                <td>321 Lekki phase 1</td>
+                <td>+244987635</td>
+                <td>JB@yahoo.com</td>
+            </tr>
+            <tr>
+                <td>Man City</td>
+                <td>56 FA Cup Lane</td>
+                <td>+4478901234</td>
+                <td>mcity@football.com</td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- Registration form -->
+      <h2>Registration Form</h2>
+  <form action="#" method="post">
+
+    <label for="name">Full Name:</label><br>
+    <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+
+ 
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" placeholder="example@domain.com" required><br><br>
+
+
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password" placeholder="Choose a strong password" minlength="6" required><br><br>
+
+   
+    <label for="dob">Date of Birth:</label><br>
+    <input type="date" id="dob" name="dob" required><br><br>
+
+    <!-- Dropdown (Select Gender) -->
+    <label for="gender">Gender:</label><br>
+    <select id="gender" name="gender" required>
+      <option value="">--Select--</option>
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="other">Other</option>
+    </select><br><br>
+
+    <!-- Radio Buttons (Subscription Plan) -->
+    <p>Choose a Plan:</p>
+    <input type="radio" id="basic" name="plan" value="basic" required>
+    <label for="basic">Basic</label><br>
+    <input type="radio" id="premium" name="plan" value="premium">
+    <label for="premium">Premium</label><br>
+    <input type="radio" id="vip" name="plan" value="vip">
+    <label for="vip">VIP</label><br><br>
+
+    <!-- Checkboxes (Preferences) -->
+    <p>Select Your Interests:</p>
+    <input type="checkbox" id="html" name="interests" value="HTML">
+    <label for="html">HTML</label><br>
+    <input type="checkbox" id="css" name="interests" value="CSS">
+    <label for="css">CSS</label><br>
+    <input type="checkbox" id="js" name="interests" value="JavaScript">
+    <label for="js">JavaScript</label><br><br>
+
+    <!-- Submit Button -->
+    <input type="submit" value="Register">
+  </form>
+</body>
+</html>
